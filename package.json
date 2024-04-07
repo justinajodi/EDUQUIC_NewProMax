@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "seed":"node scripts/seed.ts",
     "postinstall": "prisma generate"
   },
   "dependencies": {
@@ -44,9 +45,9 @@
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@uploadthing/mime-types": "^0.2.6",
-    "uploadthing": "^5.7.4",
     "@uploadthing/react": "^5.7.0",
     "@uploadthing/shared": "^6.3.4",
+    "@vercel/postgres": "^0.8.0",
     "autoprefixer": "^10.4.18",
     "axios": "^1.6.7",
     "class-variance-authority": "^0.7.0",
@@ -99,7 +100,7 @@
     "three-globe": "^2.31.0",
     "typescript": "^5.4.2",
     "typewriter-effect": "^2.21.0",
-
+    "uploadthing": "^5.7.4",
     "urllib": "^3.23.0",
     "usehooks-ts": "^3.0.1",
     "zod": "^3.22.4",

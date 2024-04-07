@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "seed":"node scripts/seed.ts",
-    "postinstall": "prisma generate && npx prisma seed"
+    "postinstall": "prisma generate && prisma seed"
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",

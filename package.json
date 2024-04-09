@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "seed": "node scripts/seed.ts",
+    "convex": "npx convex deploy",
     "postinstall": "prisma generate"
   },
   "dependencies": {

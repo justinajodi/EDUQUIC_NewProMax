@@ -26,7 +26,7 @@ export function NavigationMenuDemo() {
   const { isSignedIn } = useAuth();
 
   return (
-    <div className=" flex items-center justify-between  bg-transparent backdrop-blur-2xl">
+    <div className=" flex items-center justify-between z-[-1]  bg-white dark:bg-black z-100">
       <Link href="/" className="relative ml-6">
       <Image
       height={130}
@@ -93,7 +93,7 @@ export function NavigationMenuDemo() {
         
         <Link
           href={isSignedIn ? "/dashboard" : "/sign-up"}
-          className="relative sm:p-2 sm:mr-2 mr-8   font-medium text-white sm:text-sm group "
+          className="relative sm:p-2 max-[500px]:mr-2   font-medium text-white sm:text-sm group "
         >
           {isSignedIn &&(<Button>Dashboard</Button>)}
           {!isSignedIn &&(<Button>Sign-in</Button>)}

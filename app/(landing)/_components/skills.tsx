@@ -27,10 +27,10 @@ export default function Skills() {
     <section
       id="skills"
       ref={ref}
-      className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
+      className="mb-28 max-w-[53rem] max-[500px]:max-w-[20rem] scroll-mt-28 text-center sm:mb-40"
     >
       <SectionHeading>Features</SectionHeading>
-      <ul className="flex flex-wrap justify-center gap-2 text-lg text-zinc-800 mt-10">
+      <ul className="flex flex-wrap justify-center gap-2 text-lg text-zinc-800 mt-10 ">
         {skillsData.map((skill, index) => (
           <motion.li
             className="bg-zinc-600/10 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"

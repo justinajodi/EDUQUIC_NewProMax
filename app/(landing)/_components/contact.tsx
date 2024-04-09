@@ -15,7 +15,7 @@ export default function Contact() {
     <motion.section
       id="contact"
       ref={ref}
-      className="mb-10 w-[min(100%,38rem)] text-center"
+      className="mb-10 w-[min(100%,38rem)] max-[500px]:25rem text-center"
     
       transition={{
         duration: 1,

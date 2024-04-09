@@ -10,9 +10,9 @@ export function AnimatedPinDemo() {
   <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white mb-10">
      Most Popular Tools
     </h2>
-    <div className="h-[40rem] w-full flex items-center justify-center ">
+    <div className="h-[40rem] w-full flex items-center justify-center  ">
   
-     <div className="grid md:grid-cols-2 lg:grid-cols-2 sm-grid-cols-1 ">
+     <div className="grid md:grid-cols-2 lg:grid-cols-2 sm-grid-cols-1  max-[500px]:mt-[40rem]">
         
         
      <PinContainer
@@ -20,7 +20,7 @@ export function AnimatedPinDemo() {
         href="http://localhost:3000/summarizer"
      
       >
-        <div className="flex basis-full flex-col p-4 tracking-tight   sm:basis-1/2 w-[20rem] h-[20rem] text-zinc-800 dark:text-zinc-200 ">
+        <div className="flex basis-full flex-col p-4 tracking-tight   sm:basis-1/2 w-[20rem]  h-[20rem] text-zinc-800 dark:text-zinc-200 ">
           <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base ">
             Summarizer AI
           </h3>

@@ -74,7 +74,7 @@ export const CategoryForm = ({
             <>Cancel</>
           ) : (
             <>
-              <Pencil className="" /> Edit
+              <Pencil className="" /> 
               
             </>
           )}

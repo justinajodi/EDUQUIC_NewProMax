@@ -1,23 +1,4 @@
 "use client";
-import { ArrowRight, Facebook, Instagram, Twitter } from "lucide-react";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import {
-  Book,
-  Plus,
-  Star,
-  TabletSmartphoneIcon,
-  UserRound,
-  Wrench,
-} from "lucide-react";
-
-
 import { InfiniteMovingCardsDemo } from "./testimonialsmotiona";
 import SectionHeading from "./section-heading";
 
@@ -74,7 +55,7 @@ const counter = [
 
 export const LandingContent = () => {
   return (
-    <div className="px-10 pb-20 bg-white dark:bg-black  ">
+    <div className="px-10 pb-20 bg-white dark:bg-black mt-20 ">
       <h2 className="text-3xl font-medium capitalize text-center">
       <SectionHeading>Testimonials</SectionHeading>
       </h2>

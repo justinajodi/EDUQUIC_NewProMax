@@ -96,7 +96,7 @@ export const Toolbar = ({
           {initialData.icon}
         </p>
       )}
-      <div className="opacity-0 group-hover:opacity-100 flex items-center gap-x-1 py-4">
+      <div className="opacity-0 z-40 group-hover:opacity-100 flex items-center gap-x-1 py-4">
         {!initialData.icon && !preview && (
           <IconPicker asChild onChange={onIconSelect}>
             <Button
@@ -112,7 +112,7 @@ export const Toolbar = ({
         {!initialData.coverImage && !preview && (
           <Button
             onClick={coverImage.onOpen}
-            className="text-muted-foreground text-xs"
+            className="text-muted-foreground text-xs z-40"
             variant="outline"
             size="sm"
           >

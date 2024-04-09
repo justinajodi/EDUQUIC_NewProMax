@@ -9,6 +9,7 @@ import Contact from "./_components/contact";
 import Footer from "./_components/footer";
 import { LandingHero } from "./_components/landing-hero";
 import { LandingContent } from "./_components/landing-content";
+import { NavigationMenuDemo } from "./_components/landing-navbar";
 
 const LandingPage = () => {
   // return (
@@ -30,10 +31,11 @@ const LandingPage = () => {
 
   return (
     <div className="h-full  selection:bg-rose-500 selection:text-white ">
-      {/* <LandingNavbar /> */}
+      {/* <NavigationMenuDemo /> */}
 
       <div className="flex flex-col items-center px-4">
         <LandingHero />
+      
         <div className="bg-white dark:bg-black flex flex-col items-center px-4">
           <About />
           <Skills />
